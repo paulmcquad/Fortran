@@ -1,4 +1,4 @@
-program Fullname
+program Data
     implicit none
 
     ! ----- VARIABLES / DATA TYPES -----
@@ -37,4 +37,4 @@ program Fullname
       print "(a7, i1)", "Double ", kind(dbl_num)
       print "(a8, i1)", "Logical ", kind(can_vote)
 
-end program Fullname
+end program Data
